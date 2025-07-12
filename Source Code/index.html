@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Our Team | We're Hiring</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">YourCompany</div>
+    <ul>
+      <li><a href="#openings">Openings</a></li>
+      <li><a href="#applicationForm">Apply</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <h1>🚀 Join Our Team</h1>
+    <p>Your future starts here. Discover opportunities to grow with us.</p>
+  </header>
+
+  <section class="openings" id="openings">
+    <h2>Current Openings</h2>
+    <div class="job-listings">
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p>Build elegant, responsive interfaces with React/Next.js.</p>
+        <button class="apply-btn" data-role="Frontend Developer">Apply Now</button>
+      </div>
+      <div class="job-card">
+        <h3>UI/UX Designer</h3>
+        <p>Design intuitive user experiences with a modern aesthetic.</p>
+        <button class="apply-btn" data-role="UI/UX Designer">Apply Now</button>
+      </div>
+      <div class="job-card">
+        <h3>Marketing Specialist</h3>
+        <p>Drive growth with creative campaigns and brand storytelling.</p>
+        <button class="apply-btn" data-role="Marketing Specialist">Apply Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="application" id="applicationForm">
+    <h2>Apply Now</h2>
+    <form id="hireForm">
+      <input type="text" id="applicantName" placeholder="Your Name" required />
+      <input type="email" id="applicantEmail" placeholder="Your Email" required />
+      <input type="text" id="applicantRole" placeholder="Position Applying For" readonly />
+      <textarea placeholder="Tell us why you're a great fit..." required></textarea>
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer id="footer">
+    <p>&copy; 2025 YourCompany. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
